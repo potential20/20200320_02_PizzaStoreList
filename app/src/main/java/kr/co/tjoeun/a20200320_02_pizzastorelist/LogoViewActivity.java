@@ -30,7 +30,7 @@ public class LogoViewActivity extends BaseActivity {
 
     @Override
     public void setValues() {
-        url = getIntent().getStringExtra("logourl");
+        url = getIntent().getStringExtra("logoUrl");
 
         Glide.with(mContext).load(url).into(binding.bigLogoImg);
 
