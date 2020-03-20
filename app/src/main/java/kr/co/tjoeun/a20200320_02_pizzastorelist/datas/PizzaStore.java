@@ -4,7 +4,9 @@ import java.io.Serializable;
 
 public class PizzaStore implements Serializable {
 
-    private String storeName;
+
+
+   private String storeName;
     private String logoUrl;
     private String phoneNum;
 
